@@ -1,7 +1,7 @@
 {% set name = "visdom" %}
-{% set version = "0.1.05" %}
+{% set version = "0.1.7" %}
 {% set hash_type = "sha256" %}
-{% set hash = "08cb193f893da6834ee1b98bda53238f72b33b3fb92c83426d994199a0e80fd8" %}
+{% set hash = "62732c1e912b8a0819cb3c69a429d0360c291559511ff99932f12bd3f1d1a8bd" %}
 
 package:
   name: {{ name|lower }}
@@ -19,6 +19,7 @@ build:
 requirements:
   build:
     - python
+    - setuptools
 
   run:
     - numpy
