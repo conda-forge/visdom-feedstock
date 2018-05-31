@@ -29,6 +29,7 @@ requirements:
     - pyzmq
     - six
     - torchfile
+    - websocket-client
 
 test:
   imports:
