@@ -24,6 +24,7 @@ requirements:
     - setuptools
   run:
     - numpy
+    - scipy
     - pillow
     - requests
     - tornado
