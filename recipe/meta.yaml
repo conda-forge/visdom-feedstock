@@ -20,6 +20,14 @@ requirements:
   build:
     - python
     - setuptools
+    - numpy
+    - pillow
+    - requests
+    - tornado
+    - pyzmq
+    - six
+    - torchfile
+    - websocket-client
 
   run:
     - numpy
