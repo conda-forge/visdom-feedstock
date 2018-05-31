@@ -16,9 +16,8 @@ of live, rich data. Supports Torch and Numpy.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/visdom-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/visdom-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/visdom-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/visdom-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/visdom-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/visdom-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/visdom-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/visdom-feedstock)
 
 Current release info
 ====================
