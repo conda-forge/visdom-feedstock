@@ -1,7 +1,7 @@
 {% set name = "visdom" %}
-{% set version = "0.1.7" %}
+{% set version = "0.1.8.3" %}
 {% set hash_type = "sha256" %}
-{% set hash = "62732c1e912b8a0819cb3c69a429d0360c291559511ff99932f12bd3f1d1a8bd" %}
+{% set hash = "0df89f6ba0c56fc12b40925bfa62dd59549642cd3bf290c394fd27ba5301c133" %}
 
 package:
   name: {{ name|lower }}
@@ -28,6 +28,7 @@ requirements:
     - tornado
     - pyzmq
     - six
+    - torchfile
 
 test:
   imports:
