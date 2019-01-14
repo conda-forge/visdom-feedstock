@@ -1,7 +1,7 @@
 {% set name = "visdom" %}
-{% set version = "0.1.8.5" %}
+{% set version = "0.1.8.7" %}
 {% set hash_type = "sha256" %}
-{% set hash = "e9afccf5b64a856d70e2538352a010024324fccaa093df8f3d7890755869136b" %}
+{% set hash = "9261e51b21120aa29158ce329e7e34b4726474630ebb924cc376bfd8a1aa6893" %}
 
 package:
   name: {{ name|lower }}
