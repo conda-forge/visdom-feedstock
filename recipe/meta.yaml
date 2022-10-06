@@ -1,7 +1,6 @@
 {% set name = "visdom" %}
-{% set version = "0.1.8.9" %}
-{% set hash_type = "sha256" %}
-{% set hash = "c73ad23723c24a48156899f78dd76bd4538eba3edf9120b6c65a9528fa677126" %}
+{% set version = "0.2.1" %}
+{% set hash = "51bca4ba6cdcb098794a26b2a9458836834f98317999697ada248241c154ed5a" %}
 
 package:
   name: {{ name|lower }}
@@ -10,11 +9,11 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  {{ hash_type }}: {{ hash }}
+  sha256: {{ hash }}
 
 build:
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
 requirements:
@@ -41,7 +40,7 @@ about:
   home: https://github.com/facebookresearch/visdom
   license: CC BY 4.0
   license_family: OTHER
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
+  license_file: {{ environ["RECIPE_DIR"] }}/LICENSE
   summary: A tool for visualizing live, rich data for Torch and Numpy.
   description: |
     A flexible tool for creating, organizing, and sharing visualizations
