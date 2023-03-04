@@ -38,8 +38,7 @@ test:
 
 about:
   home: https://github.com/fossasia/visdom
-  license: CC BY 4.0
-  license_family: OTHER
+  license: CC-BY-NC-4.0
   license_file: {{ environ["RECIPE_DIR"] }}/LICENSE
   summary: A tool for visualizing live, rich data for Torch and Numpy.
   description: |
