@@ -25,11 +25,9 @@ requirements:
     - jsonpatch
     - numpy
     - pillow
-    - pyzmq
     - requests
     - scipy
     - six
-    - torchfile
     - tornado
     - websocket-client
 
