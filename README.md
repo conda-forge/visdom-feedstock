@@ -1,15 +1,15 @@
-About visdom
-============
-
-Home: https://github.com/facebookresearch/visdom
-
-Package license: CC BY 4.0
+About visdom-feedstock
+======================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/visdom-feedstock/blob/main/LICENSE.txt)
 
+Home: https://github.com/fossasia/visdom
+
+Package license: CC-BY-NC-4.0
+
 Summary: A tool for visualizing live, rich data for Torch and Numpy.
 
-Development: https://github.com/facebookresearch/visdom
+Development: https://github.com/fossasia/visdom
 
 A flexible tool for creating, organizing, and sharing visualizations
 of live, rich data. Supports Torch and Numpy.
@@ -101,7 +101,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
